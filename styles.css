@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff; /* Changement de couleur de fond */
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #005b96; /* Couleur de fond inspirée de TotalEnergies */
+    color: #ffffff;
+    padding-top: 20px; /* Réduction de la marge supérieure */
+    min-height: 60px; /* Réduction de la hauteur minimale */
+    border-bottom: #ffcc00 3px solid; /* Couleur de bordure inspirée de TotalEnergies */
+}
+
+header h1 {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 24px; /* Ajustement de la taille de police */
+}
+
+header p {
+    text-align: center;
+    margin: 0;
+    padding: 5px; /* Réduction du padding */
+    font-size: 14px; /* Ajustement de la taille de police */
+}
+
+section {
+    margin: 20px 0;
+}
+
+section h2 {
+    background: #005b96; /* Couleur de fond inspirée de TotalEnergies */
+    color: #ffffff;
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: 18px; /* Ajustement de la taille de police */
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    background: #f9f9f9; /* Couleur de fond plus sobre */
+    margin: 5px 0;
+    padding: 10px;
+    border: #e0e0e0 1px solid; /* Couleur de bordure plus claire */
+}
